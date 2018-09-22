@@ -20,13 +20,13 @@ const gif = require("gif-search");
 
 const client = new Discord.Client({disableEveryone: true});
 
-const prefix = "1";
+const prefix = "**";
 /////////////////////////
 ////////////////////////
 
  
       client.on('ready', () => {
-              client.user.setActivity("1play  | by smoker ", {type: 'LISTENING'});
+              client.user.setActivity("**play  | by snoker ", {type: 'LISTENING'});
      
       });
 
